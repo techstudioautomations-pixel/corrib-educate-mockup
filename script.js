@@ -7,9 +7,9 @@ const testimonialCards=[...document.querySelectorAll('.testimonial')],testimonia
 const valuePanel=document.querySelector('#value-panel');
 if(valuePanel){
   const valueContent={
-    goal:'Our aim is to ensure every mini stay gets the best experience possible in our beautiful country—constantly working to procure the best accommodation, mainly through host families, and to provide the best service for our partners.',
+    goal:'Our aim is to ensure every student gets the best experience possible in our beautiful country, ensuring the best of host accommodation and services throughout your unique stay.',
     team:'In the past year we have built a strong team, with each member bringing varying experience that complements how we operate—meet everyone below.',
-    standards:'High quality education programmes in a safe environment, with a variety of activities and cultural events, and loyal host families across Galway, Dublin and Monaghan.'
+    standards:'High quality education programmes in a safe environment, with a variety of activities and cultural events, and carefully vetted Irish host families across Galway, Dublin and Monaghan.'
   };
   const valueTabs=[...document.querySelectorAll('.value-tab')];
   valueTabs.forEach(tabBtn=>tabBtn.addEventListener('click',()=>{
