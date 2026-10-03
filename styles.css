@@ -145,3 +145,16 @@ nav a[href="learn-english.html"]{order:5}
 .accreditation-marks .partner-mark:not(.logo-mark) span{margin-top:34px;font-size:11px;letter-spacing:.18em;color:var(--muted)}
 @media(max-width:850px){.catalog-intro{padding-top:50px;padding-bottom:54px}.catalog-panel{margin-top:28px}.catalog-actions{display:grid}.quote-section{min-height:0;padding:78px 20px}.accreditation-marks{grid-template-columns:1fr;gap:14px}.accreditation-marks .partner-mark{min-height:150px}.accreditation-marks .partner-mark.logo-mark img{height:94px}.accreditation-marks .partner-mark:not(.logo-mark) strong{font-size:24px}}
 
+
+/* Catalogue feature — one clear download action */
+.catalog-intro{background:#edf3ee;padding:64px 8vw;grid-template-columns:1fr 1fr;gap:6vw;border-bottom:0;align-items:center}
+.catalog-intro .trust-statement{font-size:clamp(30px,3.1vw,44px);font-weight:500;letter-spacing:-.035em;line-height:1.18;max-width:520px;margin-top:20px}
+.catalog-panel{background:#fff;border:1px solid #dce6df;border-radius:18px;padding:36px;gap:24px;max-width:620px}
+.catalog-panel>p{font-size:16px;line-height:1.7;max-width:490px}
+.catalog-panel .catalog-label{margin:0;color:var(--green);font-size:11px;font-weight:600;letter-spacing:.13em;text-transform:uppercase}
+.catalog-actions{display:block}
+.catalog-panel .catalog-download{display:flex;justify-content:space-between;align-items:center;width:100%;gap:20px;padding:22px 26px;border-radius:12px;font-size:19px;font-weight:600;letter-spacing:-.02em;line-height:1.4;box-shadow:0 5px 16px rgba(23,53,42,.08);transition:background .2s,transform .2s}
+.catalog-panel .catalog-download span{font-size:26px;line-height:1}
+.catalog-panel .catalog-download:hover{background:#205b3e;transform:translateY(-2px)}
+.catalog-panel .catalog-download:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+@media(max-width:850px){.catalog-intro{display:grid;grid-template-columns:1fr;padding:48px 20px;gap:28px}.catalog-panel{margin-top:0;padding:26px;max-width:none}.catalog-panel .catalog-download{font-size:17px;padding:20px}.catalog-intro .trust-statement{max-width:520px}}
